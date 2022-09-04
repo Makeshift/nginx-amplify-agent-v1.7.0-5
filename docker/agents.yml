@@ -1,0 +1,19 @@
+Centos7:
+  image: amplify-agent-centos7
+  volumes:
+   - ../:/amplify
+
+Debian8:
+  image: amplify-agent-debian8
+  volumes:
+   - ../:/amplify
+
+Ubuntu1404:
+  image: amplify-agent-ubuntu1404
+  volumes:
+   - ../:/amplify
+
+Gentoo:
+  image: amplify-agent-gentoo
+  volumes:
+   - ../:/amplify

@@ -1,0 +1,13 @@
+version: '2.4'
+services:
+  agent-gentoo:
+    image: amplify-agent-gentoo
+    volumes:
+    - ../:/amplify
+    tty: true
+    networks:
+      - controller-backend
+networks:
+  controller-backend:
+    external: true
+
